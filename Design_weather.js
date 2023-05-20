@@ -19,7 +19,7 @@ function getWeather(city){
     var settings2 = {
       async: true,
       crossDomain: true,
-      url: "https://api.weatherbit.io/v2.0/forecast/daily?city=" + city + "&key=1ba8671d42474523bec78afaa13516ca",
+      url: "https://api.weatherbit.io/v2.0/forecast/daily?city=" + city + "&key=c607b77098a64cc6bd828e06dbf0dbdb",
       method: "GET",
   };
        var weekday = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
